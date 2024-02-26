@@ -11,6 +11,13 @@ After forking, first of all, you need to set up the virtual environment, which i
 ### Using Docker (Preferred)
 ```shell
 docker build -t jupyter_hackathon .
+```
+If you are using Windows:
+```shell
+docker run -v "%cd%":/app -p 8888:8888 jupyter_hackathon
+```
+Linux or MacOS:
+```shell
 docker run -v $(pwd):/app -p 8888:8888 jupyter_hackathon
 ```
 ### Using VirtualEnv
