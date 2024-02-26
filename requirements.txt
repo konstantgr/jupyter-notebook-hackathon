@@ -1,3 +1,4 @@
+traitlets==5.9.0
 jupyter==1.0.0
 jupyter-contrib-nbextensions==0.7.0
 jupyter-mining-extension @ git+https://github.com/konstantgr/jupyter-logs-mining-extension.git@python_extension
